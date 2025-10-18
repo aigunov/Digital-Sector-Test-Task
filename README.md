@@ -11,6 +11,22 @@
 - Maven
 - Junit 6.0
 
+#### Build and Run
+_build_:
+```bash
+mvn clean package
+```
+
+_run_:
+```bash
+mvn exec:java -Dexec.mainClass=org.example.Main
+```
+
+_test_:
+```bash
+mvn test
+```
+
 #### Project Structure 
 ```bash
 src/
